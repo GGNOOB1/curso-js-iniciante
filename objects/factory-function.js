@@ -1,11 +1,11 @@
 function createCircle(radius) {
-    let circle = {
-        radius,
-        draw() {
-            console.log('Draw')    
-        }
-    };
-    return circle;
+  let circle = {
+    radius,
+    draw() {
+      console.log("Draw");
+    },
+  };
+  return circle;
 }
 
 const circle1 = createCircle(1);
