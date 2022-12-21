@@ -8,7 +8,7 @@ function calcularMedia(notas) {
     }
 
     media = soma / notas.length;
-    
+
     if (media > 0 && media < 60) console.log("F");
     if (media >= 60 && media < 70) console.log("D");
     if (media >= 70 && media < 80) console.log("C");
@@ -17,6 +17,6 @@ function calcularMedia(notas) {
 
 }
 
-let notas = [80,80,50];
+let notas = [100, 100, 100];
 
 calcularMedia(notas);
