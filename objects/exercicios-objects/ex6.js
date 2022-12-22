@@ -18,3 +18,9 @@ let priceRanges = [
         maxPorPessoa: 200
     }
 ];
+
+let restaurantes = [
+    {
+        mediaPorPessoa: 5
+    }
+]
